@@ -1,1 +1,7 @@
 These are a series of scripts utilized for plotting a geographic voronoi tessellation in ggplot2.
+
+Data in sample.data is drawn from the Atlas of North American English: Labov, Ash & Boberg, 2006.
+
+The functions in clip.border.R, and regions.border.R crucially rely on gpclib. gpclib cannot be used for commercial purposes without permision from its author(s). http://www.cs.man.ac.uk/~toby/alan/software/
+
+sample.workflow.R contains a sample workflow to produce maps. Their applicability to all research problems is not guaranteed.
