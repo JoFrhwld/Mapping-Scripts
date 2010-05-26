@@ -7,7 +7,7 @@ clip.border <- function(deldir.obj, border){
 	## bord will be a gpc polygon of all of the regions given to the argument "border"
 	bord <- as(matrix(ncol = 2), "gpc.poly")
 	for(i in seq(along = border)){
-		b <- as(border[[i]], "gpc.poly")
+		b <- as(border[[i]][,c("x","y")], "gpc.poly")
 		bord <- union(b, bord)
 	}
 
