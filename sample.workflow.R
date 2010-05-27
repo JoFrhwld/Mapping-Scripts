@@ -2,6 +2,10 @@ library(deldir)
 library(gpclib)
 library(maps)
 
+source("http://github.com/JoFrhwld/Mapping-Scripts/raw/master/sample.data.R")
+source("http://github.com/JoFrhwld/Mapping-Scripts/raw/master/clip.border.R")
+source("http://github.com/JoFrhwld/Mapping-Scripts/raw/master/regions.border.R")
+
 us <- data.frame(map("world", regions = "USA", exact = T,plot = F)[c("x","y")])
 longisland <- data.frame(map("world", regions = "USA:New York:Long Island", exact = T,plot = F)[c("x","y")])
 
