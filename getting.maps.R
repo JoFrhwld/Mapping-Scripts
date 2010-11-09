@@ -13,5 +13,5 @@ pa.bord <- data.frame(map("state", region = "pennsylvania", plot = F)[c("x","y")
 
 ## some other countries
 
-fr.bord <- data.frame(map("map", region = "France", exact = T, plot = F)[c("x","y")])
+fr.bord <- data.frame(map("world", region = "France", exact = T, plot = F)[c("x","y")])
 ## see also, map("map", region = "France", exact = T, plot = F)$name
